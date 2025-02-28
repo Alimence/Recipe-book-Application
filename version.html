@@ -13,7 +13,7 @@
         <h1 class="text-xl">Recipe Book Application </h1>
     </header>
 
-    <main>
+    <main class="p-8">
         <section id="recipelist" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
         </section>
@@ -23,7 +23,7 @@
             <h2 class="text-xl mb-4">Add a new Recipe </h2>
 
              <div>
-                <label for="block text-lg font-semibold pb-2">Recipe Title</label>
+                <label for= "RecipeTitle" class="block text-lg font-semibold pb-2"> Recipe Title</label>
                 <input type="text" id="recipeTitle" class="border p-2 w-full rounded-lg focus:outline-none" placeholder="Enter Recipe Title Please">
              </div>
 
@@ -31,37 +31,26 @@
 
              <div>
                 <label for="block text-lg font-semibold pb-2">Ingredients</label>
-                <input type="text" id="recipeingredients" class="border p-2 w-full rounded-lg focus:outline-none" placeholder="Enter Recipe Ingredients Please">
+                <input type="text" id="recipeIngredients" class="border p-2 w-full rounded-lg focus:outline-none" placeholder="Enter Recipe Ingredients Please">
              </div>
 
 
 
              <div>
                 <label for="block text-lg font-semibold pb-2">Steps</label>
-                <input type="text" id="Steps " class="border p-2 w-full rounded-lg focus:outline-none" placeholder="Enter Steps  Please">
+                <input type="text" id="recipeSteps" class="border p-2 w-full rounded-lg focus:outline-none" placeholder="Enter Steps  Please">
              </div>
 
              <button id="addRecipe" class="bg-green-500 text-white font-thin text-lg px-3 py-1 mt-4 mb-40 rounded-lg "> Add Recipe</button>
             </section>
-        
+         
             <footer class="p-4 bg-gray-700 text-white text-center pb-6">
                  <p>&copy;2024 Recipe Book</p>
             </footer>
+ 
 
+            <script src="./scripts.js"></script>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
 </html>
